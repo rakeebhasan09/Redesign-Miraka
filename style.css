@@ -152,14 +152,14 @@ DEFAULT CSS HERE
 /*======================
 Home Page CSS HERE
 ========================*/
-
 .header-area {
-    padding-top: 30px;
+    position: relative;
 }
-
-.header-area .row {
-    margin-left: 0;
-    margin-right: 0;
+.menu-area {
+    background: #f2f2f2;
+    padding-top: 30px;
+    position: relative;
+    z-index: 50;
 }
 
 .logo-card img {
@@ -168,6 +168,10 @@ Home Page CSS HERE
 
 .SMN_effect-31 li:not(:first-child) {
     margin-top: 3px;
+}
+
+.mobile-menu-wrpper .SMN_effect-31 li:not(:first-child) {
+    margin-top: 6px;
 }
 
 .SMN_effect-31 a {
@@ -229,4 +233,39 @@ Home Page CSS HERE
 .location-text a {
     color: #1a1a1a;
     font-weight: 700;
+}
+
+#humbarger-icon {
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.mobile-menu-wrpper {
+    background: #f2f2f2;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10; /* positive রাখো */
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all 300ms ease-in-out;
+}
+
+.menu-active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(42%);
+}
+
+.mobile-menu-location {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+}
+
+.mobile-menu-location p {
+    font-weight: 600;
 }
