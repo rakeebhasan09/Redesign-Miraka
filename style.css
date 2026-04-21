@@ -1,17 +1,24 @@
 /*=====================
 FONTS LINK HERE
 ======================*/
-
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/termina-test");
 
 /*======================
 DEFAULT CSS HERE
 ========================*/
-body {	
-    font-family: 'Raleway', sans-serif;
+body {
+    font-family: "Inter Tight", sans-serif;
     font-size: 16px;
-    font-weight: 400;    
-	background: #fff;
-	color: #333333;	
+    font-weight: 400;
+    background: #f2f2f2;
+    color: #1a1a1a;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.termina {
+    font-family: "Termina Test", sans-serif;
 }
 
 h1,
@@ -19,7 +26,7 @@ h2,
 h3,
 h4,
 h5,
-h6, 
+h6,
 p {
     margin: 0;
 }
@@ -35,22 +42,6 @@ ul {
     padding: 0;
     margin: 0;
 }
-
-::selection {
-    color: white; 
-    background: #ff7675;
-}
-
-::-webkit-selection {
-    color: white; 
-    background: #ff7675;
-}
-
-::-moz-selection {
-    color: white; 
-    background: #ff7675;
-}
-
 
 .scrolltotop {
     width: 40px;
@@ -158,13 +149,84 @@ ul {
 DEFAULT CSS HERE
 ========================*/
 
+/*======================
+Home Page CSS HERE
+========================*/
 
+.header-area {
+    padding-top: 30px;
+}
 
+.header-area .row {
+    margin-left: 0;
+    margin-right: 0;
+}
 
+.logo-card img {
+    width: 125px;
+}
 
+.SMN_effect-31 li:not(:first-child) {
+    margin-top: 3px;
+}
 
+.SMN_effect-31 a {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-align: left;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    padding: 0;
+    color: #1a1a1a !important;
+    font-weight: 700;
+    font-size: 15px;
+}
 
+.SMN_effect-31 a span {
+    display: block;
+    -webkit-transition: -webkit-transform 500ms
+        cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: -webkit-transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition:
+        transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55),
+        -webkit-transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 
+.SMN_effect-31 a:after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    content: attr(data-hover);
+    display: inline;
+    text-align: left;
+    -webkit-transition: top 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: top 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 
+.SMN_effect-31 a:hover span {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
 
+.SMN_effect-31 a:hover:after {
+    top: 0;
+}
 
+.SMN_effect-31 a:active {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+}
+
+.location-text a {
+    color: #1a1a1a;
+    font-weight: 700;
+}
