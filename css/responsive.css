@@ -18,6 +18,28 @@ Large Screen - Leptop
     .intro-area-text p br {
         display: none;
     }
+
+    .featured-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .featured-cards {
+        gap: 20px;
+    }
+    .single-featured-card {
+        padding: 25px 15px;
+    }
+    .single-featured-card h2 {
+        font-size: 40px;
+    }
+    .description-card p {
+        font-size: 17px;
+    }
+    .title-card h3 {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
 }
 
 /*=========================
@@ -36,6 +58,17 @@ Medium Screen - Tablate
 
     .intro-area-text p br {
         display: none;
+    }
+
+    .featured-area {
+        padding-top: 0;
+        padding-bottom: 100px;
+    }
+    .featured-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .single-featured-card {
+        padding: 30px 25px;
     }
 }
 
@@ -62,6 +95,10 @@ Xtra Small Screen - Small Mobile
 
     .intro-area {
         margin-top: 75px;
+        padding-bottom: 45px;
+    }
+    .intro-wrpper {
+        margin-bottom: 1rem;
     }
     .intro-area h1 {
         font-size: 155px;
@@ -80,5 +117,32 @@ Xtra Small Screen - Small Mobile
 
     .intro-area-text p br {
         display: none;
+    }
+
+    .featured-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .single-featured-card:first-child {
+        padding-left: 20px;
+        padding-right: 20px;
+        background: #161616;
+        border-color: #161616;
+    }
+    .single-featured-card:not(:first-child) {
+        display: none;
+    }
+    .single-featured-card h2 {
+        font-size: 35px;
+    }
+    .first-card-p p {
+        font-size: 16px;
+    }
+    .featured-area {
+        padding-top: 0;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
