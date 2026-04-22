@@ -529,3 +529,61 @@ Home Page CSS HERE
 .brands-container-two {
     margin-top: 100px;
 }
+
+/* PLANS AREA CSS */
+.plans-area {
+    padding-bottom: 100px;
+    border-bottom: 1px solid #dadada;
+}
+
+.plans-area .col-lg-4 a {
+    width: 100%;
+}
+
+.blog-card {
+    border: 3px solid #1a1a1a;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 50vw;
+    padding: 25px;
+    text-decoration: none;
+    transition: all 0.4s;
+    display: flex;
+}
+
+.blog-card {
+    height: 30vw;
+}
+
+.custome-badge {
+    display: inline-flex;
+    align-items: center;
+    background: #1a1a1a;
+    color: #f2f2f2;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 7.5px 15px;
+}
+
+.blog-card .title {
+    color: #1a1a1a;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.blog-card .short-desc {
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-top: 26px;
+}
+
+.blog-card-bottom-icon {
+    margin-top: auto;
+}
+
+.blog-card-bottom-icon img {
+    width: 100px;
+}
