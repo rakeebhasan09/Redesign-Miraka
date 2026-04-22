@@ -616,3 +616,84 @@ Home Page CSS HERE
 .single-state p {
     font-weight: 600;
 }
+
+/* FOOTER AREA CSS */
+.footer-left p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-menu {
+    flex-wrap: wrap;
+    gap: 13px;
+}
+
+.back-to-top .text {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.back-to-top {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    gap: 6px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+/* icon container */
+.icon-wrapper {
+    position: relative;
+    height: 20px;
+    width: 16px;
+    overflow: hidden;
+}
+
+/* arrows */
+.sarrow {
+    position: absolute;
+    left: 0;
+    transition: transform 0.3s ease;
+}
+
+/* default positions */
+.arrow1 {
+    transform: translateY(0);
+}
+
+.arrow2 {
+    transform: translateY(100%);
+}
+
+/* hover effect */
+.back-to-top:hover .arrow1 {
+    transform: translateY(-100%);
+}
+
+.back-to-top:hover .arrow2 {
+    transform: translateY(0);
+}
+
+footer {
+    padding-bottom: 30px;
+}
+
+.footer-bottom {
+    margin-top: 38.4px;
+}
+
+.footer-bottom ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-bottom ul li a {
+    font-size: 11.2px;
+    font-weight: 600;
+    color: #000;
+}

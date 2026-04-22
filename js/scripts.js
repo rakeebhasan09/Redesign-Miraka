@@ -1,7 +1,7 @@
 (function ($) {
     $(document).ready(function () {
         // Scroll to Top
-        jQuery(".scrolltotop").click(function () {
+        jQuery(".back-to-top").click(function () {
             jQuery("html").animate({ scrollTop: "0px" }, 400);
             return false;
         });

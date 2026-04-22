@@ -67,6 +67,16 @@ Large Screen - Leptop
         border-top: 1px solid #bcbcbc;
         padding-top: 65px;
     }
+
+    .counter-area {
+        padding-bottom: 235px;
+    }
+    .footer-left p {
+        font-size: 16px;
+    }
+    .footer-bottom {
+        margin-top: 26.4px;
+    }
 }
 
 /*=========================
@@ -128,6 +138,16 @@ Medium Screen - Tablate
     .counter-area {
         padding-top: 80px;
         padding-bottom: 213px;
+    }
+
+    .footer-top-area .row {
+        row-gap: 20px;
+    }
+    .footer-left p {
+        font-size: 16px;
+    }
+    .footer-bottom {
+        margin-top: 20px;
     }
 }
 
@@ -267,5 +287,33 @@ Xtra Small Screen - Small Mobile
     }
     .counter-area {
         padding-bottom: 200px;
+    }
+
+    .footer-top-area .row {
+        row-gap: 20px;
+    }
+    .footer-left p {
+        font-size: 16px;
+    }
+    .footer-bottom {
+        margin-top: 20px;
+    }
+    .footer-bottom ul li a {
+        font-size: 16px;
+    }
+    .footer-bottom ul {
+        align-items: start;
+    }
+    .back-to-top {
+        display: none;
+    }
+    .footer-menu li {
+        margin-top: 0 !important;
+    }
+    .footer-menu li a {
+        font-size: 18px !important;
+    }
+    .footer-menu {
+        padding-right: 30px;
     }
 }
