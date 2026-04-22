@@ -5,6 +5,15 @@ Extra Large Screen - Others
     .intro-area-text p br {
         display: none;
     }
+
+    .featured-area {
+        padding-bottom: 139px;
+    }
+
+    .free-audit-area {
+        border-top: 1px solid #bcbcbc;
+        padding-top: 65px;
+    }
 }
 
 /*========================
@@ -40,6 +49,14 @@ Large Screen - Leptop
         margin-top: 25px;
         margin-bottom: 10px;
     }
+
+    .featured-area {
+        padding-bottom: 139px;
+    }
+    .free-audit-area {
+        border-top: 1px solid #bcbcbc;
+        padding-top: 65px;
+    }
 }
 
 /*=========================
@@ -69,6 +86,20 @@ Medium Screen - Tablate
     }
     .single-featured-card {
         padding: 30px 25px;
+    }
+
+    .featured-area {
+        padding-bottom: 190px;
+    }
+    .free-audit-area {
+        border-top: 1px solid #bcbcbc;
+        padding-top: 65px;
+    }
+    .free-audit-content p {
+        font-size: 21px;
+    }
+    .free-audit-container ul {
+        list-style-position: outside;
     }
 }
 
@@ -144,5 +175,25 @@ Xtra Small Screen - Small Mobile
     .container {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .featured-area {
+        padding-bottom: 40px;
+    }
+    .free-audit-area {
+        border-top: 1px solid #bcbcbc;
+        padding-top: 70px;
+    }
+    .free-audit-content p {
+        font-size: 23px;
+    }
+    .free-audit-container ul {
+        list-style-position: outside;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+    .free-audit-container .row {
+        row-gap: 25px;
     }
 }

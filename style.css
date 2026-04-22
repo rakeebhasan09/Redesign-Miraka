@@ -433,3 +433,62 @@ Home Page CSS HERE
     font-weight: 500;
     text-align: center;
 }
+
+/* FREE AUDIT AREA CSS */
+.free-audit-container {
+    width: 92.5%;
+    margin: auto;
+}
+
+.free-audit-container ul {
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.free-audit-container ul li {
+    font-weight: 600;
+}
+
+.free-audit-content p {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.buttons a {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 14px 28px;
+}
+
+.free-audit-btn {
+    border: 3px solid #1a1a1a;
+    background: #1a1a1a;
+    color: #fff;
+    border-radius: 0 20px 20px 20px;
+}
+
+.free-audit-btn:hover {
+    color: #fff;
+}
+
+.acquisitions-btn {
+    border: 3px solid #1a1a1a;
+    color: #1a1a1a;
+    border-radius: 20px 20px 0px 20px;
+}
+
+.acquisitions-btn:hover {
+    color: #1a1a1a;
+}
+
+.free-audit-area {
+    padding-bottom: 183px;
+}
