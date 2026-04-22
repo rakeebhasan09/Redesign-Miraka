@@ -183,6 +183,7 @@ Xtra Small Screen - Small Mobile
     .free-audit-area {
         border-top: 1px solid #bcbcbc;
         padding-top: 70px;
+        padding-bottom: 142px;
     }
     .free-audit-content p {
         font-size: 23px;
@@ -195,5 +196,24 @@ Xtra Small Screen - Small Mobile
     }
     .free-audit-container .row {
         row-gap: 25px;
+    }
+
+    .brands-container {
+        row-gap: 37px;
+        justify-content: center;
+    }
+    .single-brand-logo {
+        width: 50%;
+    }
+    .brands-container-two {
+        margin-top: 20px;
+    }
+    .trusted-brands-area {
+        padding-bottom: 140px;
+    }
+    .buttons a {
+        font-size: 20px;
+        padding: 14px 24px;
+        text-transform: capitalize;
     }
 }

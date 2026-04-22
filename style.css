@@ -492,3 +492,40 @@ Home Page CSS HERE
 .free-audit-area {
     padding-bottom: 183px;
 }
+
+/* TRUSTED BRANDS AREA CSS */
+.trusted-brands-area {
+    padding-bottom: 213px;
+}
+
+.brands-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.brands-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.single-brand-logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-brand-logo img {
+    width: 100px;
+    transition: all 300ms ease-in-out;
+}
+
+.single-brand-logo:hover img {
+    transform: scale(1.1);
+}
+
+.brands-container-two {
+    margin-top: 100px;
+}
