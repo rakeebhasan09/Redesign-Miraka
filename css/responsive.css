@@ -175,6 +175,12 @@ Medium Screen - Tablate
     .second-investieren-row {
         padding-bottom: 77px;
     }
+
+    .contact-banner-area h1 {
+        font-size: 145px;
+        margin-top: 86px;
+        margin-bottom: 125px;
+    }
 }
 
 /*===============================
@@ -360,5 +366,11 @@ Xtra Small Screen - Small Mobile
     }
     .investieren-row.row-one {
         padding-bottom: 90px;
+    }
+
+    .contact-banner-area h1 {
+        font-size: 23vw;
+        margin-top: 70px;
+        margin-bottom: 75px;
     }
 }
