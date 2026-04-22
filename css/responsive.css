@@ -77,6 +77,13 @@ Large Screen - Leptop
     .footer-bottom {
         margin-top: 26.4px;
     }
+
+    .investieren-row {
+        padding-top: 60px;
+    }
+    .investieren-row.row-one {
+        padding-bottom: 160px;
+    }
 }
 
 /*=========================
@@ -148,6 +155,25 @@ Medium Screen - Tablate
     }
     .footer-bottom {
         margin-top: 20px;
+    }
+
+    .intro-area h2 {
+        font-size: 137px;
+        font-weight: 700;
+    }
+
+    .investieren-row {
+        padding-top: 45px;
+    }
+    .investieren-content-box h1 {
+        font-size: 46px;
+    }
+
+    .investieren-row.row-one {
+        padding-bottom: 147px;
+    }
+    .second-investieren-row {
+        padding-bottom: 77px;
     }
 }
 
@@ -315,5 +341,24 @@ Xtra Small Screen - Small Mobile
     }
     .footer-menu {
         padding-right: 30px;
+    }
+
+    .intro-area h2 {
+        font-size: 68px;
+    }
+
+    .investieren-content-box h1 {
+        font-size: 52px;
+    }
+
+    .investieren-row {
+        padding-top: 60px;
+    }
+    .second-investieren-row {
+        margin-top: 0;
+        padding-bottom: 40px;
+    }
+    .investieren-row.row-one {
+        padding-bottom: 90px;
     }
 }
