@@ -1,6 +1,12 @@
 /*=============================
 Extra Large Screen - Others
 ===============================*/
+@media screen and (min-width: 1440px) {
+    .blog-card {
+        height: 30vw;
+    }
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
     .intro-area-text p br {
         display: none;
@@ -13,6 +19,10 @@ Extra Large Screen - Others
     .free-audit-area {
         border-top: 1px solid #bcbcbc;
         padding-top: 65px;
+    }
+
+    .counter-area {
+        padding-bottom: 240px;
     }
 }
 
@@ -100,6 +110,24 @@ Medium Screen - Tablate
     }
     .free-audit-container ul {
         list-style-position: outside;
+    }
+
+    .plans-area {
+        padding-bottom: 80px;
+    }
+    .plans-area .row {
+        row-gap: 30px;
+    }
+
+    .count-numbers h2 {
+        margin-bottom: 90px;
+    }
+    .single-state h3 {
+        font-size: 80px;
+    }
+    .counter-area {
+        padding-top: 80px;
+        padding-bottom: 213px;
     }
 }
 
@@ -215,5 +243,29 @@ Xtra Small Screen - Small Mobile
         font-size: 20px;
         padding: 14px 24px;
         text-transform: capitalize;
+    }
+
+    .blog-card {
+        height: 120vw;
+    }
+    .plans-area {
+        padding-bottom: 30px;
+    }
+    .plans-area .row {
+        row-gap: 30px;
+    }
+
+    .count-numbers h2 {
+        margin-bottom: 65px;
+        margin-top: 20px;
+    }
+    .single-state h3 {
+        font-size: 75px;
+    }
+    .stats-part {
+        row-gap: 55px;
+    }
+    .counter-area {
+        padding-bottom: 200px;
     }
 }

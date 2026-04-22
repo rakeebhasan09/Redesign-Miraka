@@ -552,10 +552,6 @@ Home Page CSS HERE
     display: flex;
 }
 
-.blog-card {
-    height: 30vw;
-}
-
 .custome-badge {
     display: inline-flex;
     align-items: center;
@@ -586,4 +582,37 @@ Home Page CSS HERE
 
 .blog-card-bottom-icon img {
     width: 100px;
+}
+
+/* STATE COUNT AREA CSS */
+.counter-area {
+    padding-top: 65px;
+    padding-bottom: 290px;
+}
+
+.counter-area ul {
+    list-style: disc;
+    list-style-position: inside;
+    font-weight: 600;
+}
+
+.count-numbers h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 115px;
+}
+
+.stats-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 75px;
+}
+
+.single-state h3 {
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.single-state p {
+    font-weight: 600;
 }
