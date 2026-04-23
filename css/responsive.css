@@ -591,7 +591,7 @@ Xtra Small Screen - Small Mobile
         padding-top: 0;
     }
     .analyse-card h3 {
-        color: #ee1f25;
+        color: #f37021;
         text-align: right;
     }
     .analyse-card h6,
@@ -634,6 +634,9 @@ Xtra Small Screen - Small Mobile
     .client-portal-area {
         padding-bottom: 162px;
         border-bottom: 1px solid #dadada;
+    }
+    .download-buttons img {
+        max-width: 130px;
     }
 }
 

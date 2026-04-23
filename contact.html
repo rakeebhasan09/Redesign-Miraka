@@ -31,6 +31,11 @@
         <link rel="stylesheet" href="css/responsive.css" />
     </head>
     <body>
+        <!-- ================= PRELOADER START ================= -->
+        <div id="preloader">
+            <div class="loader-text">MIRAKA & CO</div>
+        </div>
+        <!-- ================= PRELOADER END ================= -->
         <!-- HEADER AREA START -->
         <header class="header-area">
             <nav class="menu-area">
@@ -429,11 +434,18 @@
         <!-- Custom jQuery -->
         <script src="js/scripts.js"></script>
 
-        <!-- Scroll-Top button -->
-        <!-- <a href="#" class="scrolltotop" style="display: none">
-            <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
-            <span class="pluse"></span>
-            <span class="pluse2"></span>
-        </a> -->
+        <!-- ================= PRELOADER JS ================= -->
+        <script>
+            window.addEventListener("load", function () {
+                setTimeout(function () {
+                    // fade out preloader
+                    document.getElementById("preloader").classList.add("hide");
+
+                    // enable scroll again
+                    document.body.classList.add("loaded");
+                }, 1500); // 1.5 second delay
+            });
+        </script>
+        <!-- ================= END PRELOADER JS ================= -->
     </body>
 </html>
