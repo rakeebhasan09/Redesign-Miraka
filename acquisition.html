@@ -24,6 +24,9 @@
         <!-- Icon Css Here -->
         <link rel="stylesheet" href="css/font-awesome.css" />
 
+        <!-- Animation Css -->
+        <link rel="stylesheet" href="css/animate.css" />
+
         <!-- Main StyleSheet -->
         <link rel="stylesheet" href="style.css" />
 
@@ -281,7 +284,7 @@
         <!-- INVESTIEREN AREA END -->
 
         <!-- STATE COUNT AREA START -->
-        <section class="counter-area">
+        <section class="counter-area wow fadeInUp" data-wow-duration="2s">
             <div class="row gx-0">
                 <div class="col-md-5 col-lg-6">
                     <ul>
@@ -406,6 +409,9 @@
         <!-- Bootstrap.bundle Script -->
         <script src="js/bootstrap.bundle.min.js"></script>
 
+        <!-- Animation js -->
+        <script src="js/wow.min.js"></script>
+
         <!-- Custom jQuery -->
         <script src="js/scripts.js"></script>
 
@@ -418,6 +424,7 @@
 
                     // enable scroll again
                     document.body.classList.add("loaded");
+                    new WOW().init();
                 }, 1500); // 1.5 second delay
             });
         </script>

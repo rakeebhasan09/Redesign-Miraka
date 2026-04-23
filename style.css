@@ -946,6 +946,7 @@ textarea::placeholder {
 .about-intro h1 {
     font-size: 160px;
     font-weight: 600;
+    font-family: "Inter Tight", sans-serif;
 }
 
 .desc-one {

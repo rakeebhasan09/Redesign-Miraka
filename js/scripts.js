@@ -38,5 +38,8 @@
                 $(this).next().slideToggle(300);
             });
         });
+
+        //ANIMATION ACTIVATION
+        // new WOW().init();
     });
 })(jQuery);
