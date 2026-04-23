@@ -1303,3 +1303,100 @@ textarea::placeholder {
     color: #000;
     font-weight: 600;
 }
+
+/* CLIENT PORTAL AREA CSS */
+.client-portal-area {
+}
+
+.client-portal-wrpper {
+    grid-column-gap: 20px;
+    grid-row-gap: 16px;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    flex-direction: row;
+    grid-template-rows: auto;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-auto-columns: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 70px;
+    display: grid;
+    position: relative;
+    overflow: hidden;
+}
+
+.client-portal-wrpper h2 {
+    color: #f7f7f7;
+    font-size: 112px;
+    font-weight: 600;
+    line-height: 100%;
+    font-family: "Termina", sans-serif;
+}
+
+.client-portal-wrpper h3 {
+    color: #f7f7f7;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.client-portal-wrpper h4 {
+    color: #f7f7f7;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 40px;
+}
+
+.client-portal-features {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.client-portal-features li {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.client-portal-features li img {
+    width: 25px;
+    margin-top: 5px;
+}
+
+.client-portal-features li h6 {
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.client-portal-features li p {
+    color: #f2f2f2;
+    font-size: 17px;
+}
+
+.download-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 85px;
+}
+
+.download-buttons a {
+    display: inline-block;
+}
+
+.download-buttons img {
+    width: 100%;
+    max-width: 230px;
+    cursor: pointer;
+    border: 3px solid #f2f2f2;
+    border-radius: 10px;
+}
+
+.client-portal-area {
+    padding-bottom: 250px;
+    border-bottom: 1px solid #dadada;
+}

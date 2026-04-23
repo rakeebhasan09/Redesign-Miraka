@@ -49,6 +49,23 @@ Extra Large Screen - Others
     .analyse-card h3 {
         color: #ee1f25;
     }
+
+    .client-portal-wrpper h2 {
+        font-size: 80px;
+    }
+    .client-portal-wrpper h3 {
+        font-size: 34px;
+    }
+    .client-portal-wrpper h4 {
+        font-size: 18px;
+        padding-right: 80px;
+    }
+    .client-portal-features li p {
+        font-size: 12px;
+    }
+    .download-buttons img {
+        max-width: 195px;
+    }
 }
 
 /*========================
@@ -150,6 +167,23 @@ Large Screen - Leptop
         padding-right: 0%;
         padding-top: 120px;
         padding-bottom: 175px;
+    }
+
+    .client-portal-wrpper h2 {
+        font-size: 80px;
+    }
+    .client-portal-wrpper h3 {
+        font-size: 34px;
+    }
+    .client-portal-wrpper h4 {
+        font-size: 18px;
+        padding-right: 80px;
+    }
+    .client-portal-features li p {
+        font-size: 12px;
+    }
+    .download-buttons img {
+        max-width: 195px;
     }
 }
 
@@ -279,6 +313,16 @@ Medium Screen - Tablate
         grid-template-columns: 0.8fr 1.2fr;
         padding-top: 64px;
         gap: 30px;
+    }
+
+    .client-portal-wrpper {
+        padding-top: 35px;
+    }
+    .client-portal-wrpper h4 {
+        font-size: 17px;
+    }
+    .client-portal-wrpper h2 {
+        font-size: 96px;
     }
 }
 
@@ -566,6 +610,30 @@ Xtra Small Screen - Small Mobile
         color: #f37021;
         text-align: left;
         margin-bottom: 60px;
+    }
+
+    .client-portal-wrpper {
+        padding: 20px 20px 0;
+    }
+    .client-portal-wrpper h2 {
+        font-size: 80px;
+    }
+    .client-portal-wrpper h3 {
+        font-size: 27px;
+        text-align: center;
+    }
+    .client-portal-wrpper h4 {
+        font-size: 16px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .download-buttons {
+        margin-top: 55px;
+        margin-bottom: 45px;
+    }
+    .client-portal-area {
+        padding-bottom: 162px;
+        border-bottom: 1px solid #dadada;
     }
 }
 
