@@ -7,6 +7,13 @@ Extra Large Screen - Others
     }
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+    .analyse-card:nth-child(3) .arrow-one-svg {
+        left: 23px;
+        bottom: 50px;
+    }
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
     .intro-area-text p br {
         display: none;
@@ -23,6 +30,24 @@ Extra Large Screen - Others
 
     .counter-area {
         padding-bottom: 240px;
+    }
+
+    .image-area {
+        padding-bottom: 50px;
+    }
+    .direkt-list ul li span {
+        font-size: 16px;
+    }
+    .direkt-list ul li::before {
+        width: 5px;
+        height: 5px;
+    }
+    .analyse-card:nth-child(3) .arrow-one-svg {
+        left: 0;
+        bottom: 25px;
+    }
+    .analyse-card h3 {
+        color: #ee1f25;
     }
 }
 
@@ -87,6 +112,44 @@ Large Screen - Leptop
 
     .image-area {
         padding-bottom: 0px;
+    }
+
+    .image-area {
+        padding-bottom: 50px;
+    }
+    .direkt-list ul li span {
+        font-size: 16px;
+    }
+    .direkt-list ul li::before {
+        width: 5px;
+        height: 5px;
+    }
+    .analyse-card:nth-child(3) .arrow-one-svg {
+        left: 0;
+        bottom: -30px;
+    }
+    .analyse-card h3 {
+        color: #ee1f25;
+    }
+    .analyse-card h6 {
+        font-size: 24px;
+    }
+    .analyse-card p {
+        font-size: 16px;
+    }
+    .analyse-card:nth-child(2),
+    .analyse-card:nth-child(4) {
+        padding-top: 60px;
+    }
+    .arrow-one-svg {
+        bottom: -40px;
+    }
+    .analyse-row {
+        gap: 40px;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 120px;
+        padding-bottom: 175px;
     }
 }
 
@@ -189,6 +252,33 @@ Medium Screen - Tablate
     .image-area {
         padding-top: 30px;
         padding-bottom: 0px;
+    }
+
+    .analyse-row {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding-bottom: 220px;
+    }
+    .analyse-card {
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+    }
+    .arrow-one-svg,
+    .arrow-two-svg {
+        display: none;
+    }
+    .analyse-card:nth-child(2),
+    .analyse-card:nth-child(4) {
+        padding-top: 0;
+    }
+    .analyse-card h3 {
+        color: #ee1f25;
+    }
+    .direkt-area {
+        grid-template-columns: 0.8fr 1.2fr;
+        padding-top: 64px;
+        gap: 30px;
     }
 }
 
@@ -391,7 +481,119 @@ Xtra Small Screen - Small Mobile
     }
 
     .image-area {
-        padding-top: 65px;
+        padding-top: 61px;
         padding-bottom: 10px;
+        grid-template-columns: 1fr;
+    }
+
+    .direkt-area {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .direkt-author {
+        font-size: 20px;
+    }
+    .direkt-designation {
+        font-size: 16px;
+    }
+    .direkt-area {
+        padding-bottom: 192px;
+    }
+    .funktionieren-area {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sub-title {
+        text-align: left;
+    }
+    .direkt-title {
+        color: #f37021;
+    }
+    .funcktionieren-title {
+        color: #f37021;
+        font-size: 38px;
+        text-align: left;
+    }
+    .direkt-list ul li span {
+        font-size: 16px;
+    }
+    .direkt-list ul li::before {
+        width: 7px;
+        height: 7px;
+    }
+    .funcktionieren-desc {
+        text-align: left;
+    }
+
+    .analyse-row {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding-bottom: 155px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 80px;
+    }
+    .analyse-card {
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+    }
+    .arrow-one-svg,
+    .arrow-two-svg {
+        display: none;
+    }
+    .analyse-card:nth-child(2),
+    .analyse-card:nth-child(4) {
+        padding-top: 0;
+    }
+    .analyse-card h3 {
+        color: #ee1f25;
+        text-align: right;
+    }
+    .analyse-card h6,
+    .analyse-card p {
+        text-align: left;
+    }
+    .about-intro h1 {
+        text-align: left;
+        font-size: 68px;
+    }
+    .intro-area.about-area-wrpper {
+        padding-bottom: 20px;
+    }
+
+    .accordion-wrpper h2 {
+        color: #f37021;
+        text-align: left;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cta-card {
+        padding: 30px;
+        border-radius: 20px;
+        border: 10px solid #f37021;
+    }
+    .cta-card h4 {
+        font-size: 26px;
+        line-height: normal;
+    }
+    .cta-card p {
+        padding: 0 10px;
+    }
+    .cta-buttons {
+        flex-direction: column;
+    }
+    .cta-buttons a:first-child {
+        border: 5px solid #f37021;
+        color: #f37021;
+    }
+    .cta-buttons a:last-child {
+        background: #f37021;
+        color: #fff;
+    }
+    .cta-buttons a {
+        width: 100%;
     }
 }

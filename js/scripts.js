@@ -24,5 +24,19 @@
                 jQuery(".mobile-menu-wrpper").removeClass("menu-active");
             }
         });
+
+        // Accordion Activation
+        jQuery(function ($) {
+            $(".accordion-content").css("display", "none");
+            // Open the first accordion content by default
+            $(".accordion-title").first().addClass("open");
+            $(".accordion-content").first().slideDown(300);
+            $(".accordion-title").click(function () {
+                $(".accordion-title").not(this).removeClass("open");
+                $(".accordion-title").not(this).next().slideUp(300);
+                $(this).toggleClass("open");
+                $(this).next().slideToggle(300);
+            });
+        });
     });
 })(jQuery);
