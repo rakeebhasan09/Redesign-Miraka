@@ -1000,3 +1000,62 @@ textarea::placeholder {
 .btn-submit:active {
     background-color: #000;
 }
+
+/* ABOUT PAGE CSS START */
+/* INTRO AREA CSS */
+.about-intro h1 {
+    font-size: 160px;
+    font-weight: 600;
+}
+
+.desc-one {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* IMAGE AREA CSS */
+.image-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 47px;
+    padding-bottom: 62px;
+}
+
+.single-image-box img {
+    width: 100%;
+}
+
+.single-image-box {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.cursor-button {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 100%;
+    position: absolute;
+    left: -160px;
+    top: 120%;
+    z-index: 10;
+    transition: all 500ms ease-in-out;
+}
+
+.single-image-box:hover .cursor-button {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.counter-area .form-wrapper {
+    padding-bottom: 61px;
+}

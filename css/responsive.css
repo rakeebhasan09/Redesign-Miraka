@@ -84,6 +84,10 @@ Large Screen - Leptop
     .investieren-row.row-one {
         padding-bottom: 160px;
     }
+
+    .image-area {
+        padding-bottom: 0px;
+    }
 }
 
 /*=========================
@@ -180,6 +184,11 @@ Medium Screen - Tablate
         font-size: 145px;
         margin-top: 86px;
         margin-bottom: 125px;
+    }
+
+    .image-area {
+        padding-top: 30px;
+        padding-bottom: 0px;
     }
 }
 
@@ -379,5 +388,10 @@ Xtra Small Screen - Small Mobile
     }
     .form-wrapper {
         padding-bottom: 197px;
+    }
+
+    .image-area {
+        padding-top: 65px;
+        padding-bottom: 10px;
     }
 }
