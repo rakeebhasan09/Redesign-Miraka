@@ -1362,3 +1362,12 @@ textarea::placeholder {
     padding-bottom: 250px;
     border-bottom: 1px solid #dadada;
 }
+
+.blog-intro h1,
+.linkedIn-intro h1 {
+    font-family: "Inter Tight", sans-serif;
+}
+
+.linkedIn-intro h1 {
+    color: #f37021;
+}
