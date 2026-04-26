@@ -348,6 +348,10 @@ Medium Screen - Tablate
         margin-top: 15px;
         font-size: 20px;
     }
+
+    .linkedin-desc-one h2 {
+        font-size: 50px;
+    }
 }
 
 /*===============================
@@ -688,6 +692,10 @@ Xtra Small Screen - Small Mobile
 
     .linkedIn-post-area .row {
         row-gap: 15px;
+    }
+
+    .linkedin-desc-one h2 {
+        font-size: 52px;
     }
 }
 
