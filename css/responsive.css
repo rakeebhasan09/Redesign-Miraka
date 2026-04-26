@@ -185,6 +185,16 @@ Large Screen - Leptop
     .download-buttons img {
         max-width: 195px;
     }
+
+    .linkedIn-area-text p {
+        padding-right: 0;
+    }
+    .linkedIn-post-area {
+        padding-top: 85px;
+    }
+    .linkedIn-post-area .row {
+        row-gap: 30px;
+    }
 }
 
 /*=========================
@@ -323,6 +333,20 @@ Medium Screen - Tablate
     }
     .client-portal-wrpper h2 {
         font-size: 96px;
+    }
+
+    .linkedIn-area-text p {
+        padding-right: 0;
+    }
+    .linkedIn-post-area {
+        padding-top: 70px;
+    }
+    .linkedIn-post-area .row {
+        row-gap: 30px;
+    }
+    .intro-area.linkedIn-intro h3 {
+        margin-top: 15px;
+        font-size: 20px;
     }
 }
 
@@ -637,6 +661,33 @@ Xtra Small Screen - Small Mobile
     }
     .download-buttons img {
         max-width: 130px;
+    }
+
+    .intro-area.linkedIn-intro h1 {
+        font-size: 85px;
+        text-align: left;
+    }
+    .intro-area.linkedIn-intro h3 {
+        margin-top: -22px;
+        font-size: 16px;
+    }
+    .intro-area.linkedIn-intro h3 span {
+        font-size: 70px;
+    }
+
+    .intro-area.linkedIn-intro {
+        margin-top: 75px;
+        padding-bottom: 5px;
+    }
+    .linkedIn-area-text p {
+        padding-right: 0;
+    }
+    .linkedIn-post-area {
+        padding-top: 90px;
+    }
+
+    .linkedIn-post-area .row {
+        row-gap: 15px;
     }
 }
 

@@ -157,7 +157,7 @@ Home Page CSS HERE
     animation-fill-mode: both;
     padding: 0;
     color: #1a1a1a !important;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 15px;
 }
 
@@ -1370,4 +1370,174 @@ textarea::placeholder {
 
 .linkedIn-intro h1 {
     color: #f37021;
+}
+
+.intro-area.linkedIn-intro h3 {
+    margin-top: 150px;
+    font-size: 38px;
+    color: #f37021;
+}
+
+.intro-area.linkedIn-intro h3 span {
+    font-size: 160px;
+    color: #1a1a1a;
+}
+
+.linkedIn-area-text ul li {
+    font-weight: 600;
+}
+.linkedIn-area-text p {
+    padding-right: 230px;
+    line-height: 100%;
+}
+
+.single-post-card a,
+.linkedIn-post-card img {
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+.linkedIn-post-card {
+    cursor: pointer;
+}
+
+.linkedIn-post-card span {
+    font-size: 15px;
+    line-height: 22px;
+    color: rgb(10, 186, 181);
+    font-weight: 600;
+}
+
+.social-icons li a {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.social-icons li:first-child a {
+    background: #3c5a9a;
+    color: #fff;
+}
+
+.social-icons li:nth-child(2) a {
+    background: #424242;
+}
+
+.social-icons li:nth-child(3) a {
+    background: #0b79b5;
+}
+
+.social-icons li:nth-child(4) a {
+    background: #35c436;
+}
+
+.social-icons li:nth-child(5) a {
+    background: #ff0000;
+}
+
+.author-area img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.author-info {
+    gap: 8px;
+}
+
+.author-area span,
+.post-date {
+    font-size: 12px;
+    display: block;
+    letter-spacing: 0.1px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000;
+    font-weight: 600;
+}
+
+.author-area {
+    gap: 12px;
+}
+
+.linkedIn-post-card h3 {
+    font-size: 30px;
+    line-height: 100%;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.linkedIn-post-card p {
+    font-size: 16px;
+    line-height: 100%;
+    color: #000;
+    font-weight: 600;
+    margin-top: 21px;
+    margin-bottom: 22px;
+}
+
+.load-more-news button {
+    border: none;
+    background: transparent;
+    color: #666666;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.load-more-news button i {
+    font-size: 13px;
+}
+
+.linkedIn-post-area {
+    padding-top: 150px;
+}
+
+.linkedin-desc-one {
+    max-width: 768px;
+    padding-top: 45px;
+    margin: auto;
+    border-top: 1px solid #dadada;
+    padding-bottom: 233px;
+}
+
+.linkedin-desc-one span {
+    color: #f37021;
+    font-weight: 600;
+}
+
+.linkedin-desc-one h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 80px;
+    margin-top: 7px;
+}
+
+.linkedin-desc-one p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+#linkedin-desc-two {
+    border-top: 0;
+    padding-top: 45px;
+    padding-bottom: 140px;
+}
+
+.linkedin-desc-page {
+    border-bottom: 1px solid #dadada;
 }
